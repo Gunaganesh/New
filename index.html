@@ -81,7 +81,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7GQ3LZ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-
+<script>
+      /**
+      * The following event is sent when the page loads. You could
+      * wrap the event in a JavaScript function so the event is
+      * sent when the user performs some action.
+      */
+      gtag('event', 'screen_view', {
+        'app_name': 'myAppName',
+        'screen_name': 'Home'
+      });
+    </script> 
     <!-- Left Panel -->
     <aside id="left-panel" class="left-panel">
         <nav class="navbar navbar-expand-sm navbar-default">
